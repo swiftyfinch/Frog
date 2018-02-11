@@ -1,4 +1,4 @@
-🐸 Frog
+Frog
 ====
 
 [![Swift Version](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://developer.apple.com/swift)
