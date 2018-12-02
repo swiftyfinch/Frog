@@ -50,6 +50,16 @@ public class Frog {
 		guard let line = file.readLine() else { return nil }
 		return line.cutNewline
 	}
+    
+    /// Read all lines. **Mode must be equal .r**.
+    public func readLines() -> [String] {
+        precondition(mode == .r, "🤷🏼‍♂️ Can't read in this mode.")
+        var lines: [String] = []
+        while let line = readLine() {
+            lines.append(line)
+        }
+        return lines
+    }
 	
 	/// Write line at the end of file. **Mode must be equal .w**.
 	///
