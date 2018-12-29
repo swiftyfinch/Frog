@@ -1,6 +1,6 @@
 # Frog
 
-[![CI Status](https://img.shields.io/travis/Vyacheslav Khorkov/Frog.svg?style=flat)](https://travis-ci.org/Vyacheslav Khorkov/Frog)
+[![CI Status](https://img.shields.io/travis/artFintch/Frog.svg?style=flat)](https://travis-ci.org/artFintch/Frog)
 [![Version](https://img.shields.io/cocoapods/v/Frog.svg?style=flat)](https://cocoapods.org/pods/Frog)
 [![License](https://img.shields.io/cocoapods/l/Frog.svg?style=flat)](https://cocoapods.org/pods/Frog)
 [![Platform](https://img.shields.io/cocoapods/p/Frog.svg?style=flat)](https://cocoapods.org/pods/Frog)
