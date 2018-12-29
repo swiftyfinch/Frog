@@ -1,9 +1,11 @@
-osx_image: xcode10
-language: swift
-podfile: Example/Podfile
-# before_install:
-- gem install cocoapods
-- pod install --project-directory=Example
+os: osx
+osx_image: xcode10.1
+branches:
+  only:
+    - master
+
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/FrogExample.xcworkspace -scheme FrogExample ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
+  - pod lib lint
