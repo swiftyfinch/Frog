@@ -1,1 +1,0 @@
-/Users/vyacheslav/Developer/Projects/Github/Frog/Example/Pods/Target Support Files/Frog/Frog-umbrella.h

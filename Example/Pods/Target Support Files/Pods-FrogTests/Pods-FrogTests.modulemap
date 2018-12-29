@@ -1,6 +1,0 @@
-module Pods_FrogTests {
-  umbrella header "Pods-FrogTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
