@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension UnsafeMutablePointer where Pointee == FILE {
+extension UnsafeMutablePointer where Pointee == FILE {
 	
 	func readLine() -> String? {
 		var line: UnsafeMutablePointer<CChar>? // Line pointer.
@@ -26,5 +26,4 @@ public extension UnsafeMutablePointer where Pointee == FILE {
 		let count = line.utf8.count // Number of elements, each one with a size of size bytes.
 		return count == fwrite(line, size, count, self)
 	}
-	
 }

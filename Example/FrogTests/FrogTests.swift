@@ -12,7 +12,7 @@ import XCTest
 class FrogTests: XCTestCase {
 	
 	private func pathInBundle(resource: String, type: String) -> String? {
-		let bundle = Bundle(for: type(of: self))
+		let bundle = Bundle(for: FrogTests.self)
 		return bundle.path(forResource: resource, ofType: type)
 	}
 	

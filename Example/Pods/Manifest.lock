@@ -1,0 +1,16 @@
+PODS:
+  - Frog (1.0.0)
+
+DEPENDENCIES:
+  - Frog (from `../`)
+
+EXTERNAL SOURCES:
+  Frog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Frog: b3bea13a7a8dd0cd4a8d2a5c013a383b0bedc4ef
+
+PODFILE CHECKSUM: 5ad9221eb9272c7fb7adda5c3ef41739017b5915
+
+COCOAPODS: 1.6.0.beta.2

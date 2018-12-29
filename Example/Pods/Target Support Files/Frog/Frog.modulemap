@@ -1,0 +1,6 @@
+module Frog {
+  umbrella header "Frog-umbrella.h"
+
+  export *
+  module * { export * }
+}

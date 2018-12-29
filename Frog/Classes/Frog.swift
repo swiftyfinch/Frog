@@ -8,7 +8,7 @@
 
 import Foundation
 
-/// 🐸 Tiny utility for (read from | write to) file line by line.
+/// Tiny utility for (read from | write to) file line by line.
 public class Frog {
 	
 	/// File open mode.
@@ -35,25 +35,24 @@ public class Frog {
 	///		- path: The path to file.
 	///		- mode: Mode of file opening (**see** `Mode`).
 	///
-	/// - Returns: The tiny green file frog 🐸.
+	/// - Returns: The tiny green file frog.
 	public init?(_ path: String, mode: Mode = .r) {
 		let file = fopen(path, mode.rawValue)
-		precondition(file != nil, "🤷🏼‍♂️ File can't be open.")
-		
+		precondition(file != nil, "File can't be open.")
 		self.file = file!
 		self.mode = mode
 	}
 	
 	/// Read line and move cursor to next line. **Mode must be equal .r**.
 	public func readLine() -> String? {
-		precondition(mode == .r, "🤷🏼‍♂️ Can't read in this mode.")
+		precondition(mode == .r, "Can't read in this mode.")
 		guard let line = file.readLine() else { return nil }
 		return line.cutNewline
 	}
     
     /// Read all lines. **Mode must be equal .r**.
     public func readLines() -> [String] {
-        precondition(mode == .r, "🤷🏼‍♂️ Can't read in this mode.")
+        precondition(mode == .r, "Can't read in this mode.")
         var lines: [String] = []
         while let line = readLine() {
             lines.append(line)
@@ -67,12 +66,11 @@ public class Frog {
 	///
 	/// - Returns: True, if the line was written successfully. Otherwise false.
 	@discardableResult public func write(line: String) -> Bool {
-		precondition(mode == .w, "🤷🏼‍♂️ Can't write in this mode.")
+		precondition(mode == .w, "Can't write in this mode.")
 		return file.write(line: line.addNewline)
 	}
 	
 	deinit {
-		fclose(file) // Cleanup
+		fclose(file)
 	}
-	
 }

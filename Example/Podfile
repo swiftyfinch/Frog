@@ -1,0 +1,9 @@
+platform :osx, '10.10'
+
+target 'FrogExample' do
+  pod 'Frog', :path => '../'
+end
+
+target 'FrogTests' do
+  pod 'Frog', :path => '../'
+end
