@@ -6,7 +6,7 @@ branches:
 
 script:
   - set -o pipefail
-  - pod install
+  - pod install --project-directory=Example
   - xcodebuild -version
   - xcodebuild -showsdks
   - xcodebuild test -enableCodeCoverage YES -workspace Example/FrogExample.xcworkspace -scheme FrogExample ONLY_ACTIVE_ARCH=NO | xcpretty
