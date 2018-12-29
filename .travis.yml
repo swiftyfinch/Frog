@@ -8,4 +8,7 @@ script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
+  - pod --version
+  - xcodebuild test -enableCodeCoverage YES -workspace Example/FrogExample.xcworkspace -scheme FrogExample ONLY_ACTIVE_ARCH=NO | xcpretty
+  - gem install cocoapods --pre
   - pod lib lint
