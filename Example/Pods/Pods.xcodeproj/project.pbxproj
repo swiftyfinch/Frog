@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1097AFC892076FD26A0E5FA5F65F12C8 /* libPods-FrogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FrogTests.a"; path = "libPods-FrogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17256638FB88EAC0DF3CB7BA3B3C3FE4 /* libFrog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFrog.a; path = libFrog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1097AFC892076FD26A0E5FA5F65F12C8 /* libPods-FrogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17256638FB88EAC0DF3CB7BA3B3C3FE4 /* libFrog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFrog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3B78619BE6C1424B375927CF1721C6 /* Pods-FrogExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FrogExample.modulemap"; sourceTree = "<group>"; };
 		1F3F593FCBFA54A83FEEFB74446DB2B4 /* Pods-FrogExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FrogExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20AF55122DA4368E6E313B37D2969B98 /* Pods-FrogExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrogExample.release.xcconfig"; sourceTree = "<group>"; };
 		2452645961B496725D0472D81F8E1519 /* Frog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frog.swift; path = Frog/Classes/Frog.swift; sourceTree = "<group>"; };
-		271207DE39578BDCA11F66BFD0387512 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		271207DE39578BDCA11F66BFD0387512 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		387D93A544F1B5CBB3413AF87B81BC83 /* Pods-FrogExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrogExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3C3898819B9906814CD179181D7A7844 /* Pods-FrogTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FrogTests.modulemap"; sourceTree = "<group>"; };
-		47B1BB6D5C4A08C2DB898EF544FB0551 /* Frog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Frog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47B1BB6D5C4A08C2DB898EF544FB0551 /* Frog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Frog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4BEE5A4B05A70AF647C05B84C24EB73E /* Pods-FrogExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FrogExample-dummy.m"; sourceTree = "<group>"; };
 		506F7117A05D00776EB6A3D21AC7582B /* Frog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Frog.modulemap; sourceTree = "<group>"; };
 		5328720C5B82002D37520FF5970288AB /* Pods-FrogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrogTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,17 +54,17 @@
 		6C8AE182889BBF8FEFD9A2BF97A72B2E /* Frog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Frog-prefix.pch"; sourceTree = "<group>"; };
 		8122599AB9C3B742D29542CC2C1BA7E3 /* Pods-FrogTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FrogTests-dummy.m"; sourceTree = "<group>"; };
 		9CE5AF9DDB2D72D2EC88A8D66BA7D842 /* Pods-FrogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrogTests.release.xcconfig"; sourceTree = "<group>"; };
-		AD3C1A611AF2C51AB8129D68ECB1E7B6 /* libPods-FrogExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FrogExample.a"; path = "libPods-FrogExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C1A611AF2C51AB8129D68ECB1E7B6 /* libPods-FrogExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrogExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF89139A104F4F0240CBAAB497221177 /* Pods-FrogTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FrogTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B130629F5178AEBF66CA3CA86B3ED759 /* Pods-FrogTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FrogTests-umbrella.h"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1D555ECC2305E67589B0A1A0B572674 /* Pods-FrogExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FrogExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3A6DFF65E604669147CD8DEDB244270 /* UnsafeMutablePointer+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UnsafeMutablePointer+File.swift"; sourceTree = "<group>"; };
 		C4720CC0F38005AFEFBB53A1CF02C079 /* Frog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Frog.xcconfig; sourceTree = "<group>"; };
 		D0643E8BA3D0291DA0AAC4ED657AFEEE /* Pods-FrogTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FrogTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E514F21780984A9F297FE4113C4A99BE /* String+Newline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Newline.swift"; sourceTree = "<group>"; };
 		ED48F0B009D3B59DDA28ABBB8C78DF7C /* Pods-FrogExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FrogExample-umbrella.h"; sourceTree = "<group>"; };
-		F5ED7BD3E07CAA2469AC57597620041A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5ED7BD3E07CAA2469AC57597620041A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,7 +303,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,7 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Frog/Frog.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Frog/Frog-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -467,7 +466,6 @@
 			baseConfigurationReference = 5328720C5B82002D37520FF5970288AB /* Pods-FrogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,8 +537,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -551,7 +548,6 @@
 			baseConfigurationReference = 387D93A544F1B5CBB3413AF87B81BC83 /* Pods-FrogExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -575,7 +571,6 @@
 			baseConfigurationReference = 9CE5AF9DDB2D72D2EC88A8D66BA7D842 /* Pods-FrogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -599,7 +594,6 @@
 			baseConfigurationReference = 20AF55122DA4368E6E313B37D2969B98 /* Pods-FrogExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,7 +616,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4720CC0F38005AFEFBB53A1CF02C079 /* Frog.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -649,7 +642,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4720CC0F38005AFEFBB53A1CF02C079 /* Frog.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
