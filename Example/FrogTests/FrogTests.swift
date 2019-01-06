@@ -27,7 +27,7 @@ class FrogTests: XCTestCase {
 			return
 		}
 		
-		guard let frog = Frog(path, mode: .r) else { return }
+		let frog = Frog(path, mode: .r)
 		XCTAssertEqual(frog.readLine(), "I'm tired of being what you want me to be")
 		XCTAssertEqual(frog.readLine(), "Feeling so faithless, lost under the surface")
 		XCTAssertEqual(frog.readLine(), "Don't know what you're expecting of me")
@@ -52,24 +52,24 @@ class FrogTests: XCTestCase {
 		
 		let outputPath = pathInDocuments(name: "Numb.txt")
 		
-		guard let input = Frog(inputPath, mode: .r) else { return }
-		var output = Frog(outputPath, mode: .w)
+		let input = Frog(inputPath, mode: .r)
+		let output = Frog(outputPath, mode: .w)
 		
 		let croakLine = "(Croak-croak)"
 		var line = input.readLine()
 		var count = 1
 		while line != nil {
-			output?.write(line: line!)
+			output.write(line: line!)
 			if count % 2 == 0 {
-				output?.write(line: croakLine)
+				output.write(line: croakLine)
 			}
 			
 			line = input.readLine()
 			count += 1
 		}
+        output.close()
 		
-		output = nil
-		guard let checkInput = Frog(outputPath, mode: .r) else { return }
+		let checkInput = Frog(outputPath, mode: .r)
 		XCTAssertEqual(checkInput.readLine(), "I'm tired of being what you want me to be")
 		XCTAssertEqual(checkInput.readLine(), "Feeling so faithless, lost under the surface")
 		XCTAssertEqual(checkInput.readLine(), croakLine)

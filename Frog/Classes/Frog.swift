@@ -36,7 +36,7 @@ public class Frog {
 	///		- mode: Mode of file opening (**see** `Mode`).
 	///
 	/// - Returns: The tiny green file frog.
-	public init?(_ path: String, mode: Mode = .r) {
+	public init(_ path: String, mode: Mode = .r) {
 		let file = fopen(path, mode.rawValue)
 		precondition(file != nil, "File can't be open.")
 		self.file = file!
@@ -70,7 +70,12 @@ public class Frog {
 		return file.write(line: line.addNewline)
 	}
 	
+    /// Close file stream.
+    public func close() {
+        fclose(file)
+    }
+    
 	deinit {
-		fclose(file)
+		close()
 	}
 }
