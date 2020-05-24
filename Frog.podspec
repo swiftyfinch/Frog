@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Frog'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'Tiny utility for read and write file line by line in Swift.'
   s.description      = <<-DESC
     I wrote this for easier work with files in some algorithms implementations.
