@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   DESC
 
   s.homepage         = 'https://github.com/artFintch/Frog'
-  s.screenshots     = 'https://pbs.twimg.com/media/DsYELTUXQAEZ1zx.jpg'
+  s.screenshots      = 'https://pbs.twimg.com/media/DsYELTUXQAEZ1zx.jpg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vyacheslav Khorkov' => 'artfintch@ya.ru' }
   s.source           = { :git => 'https://github.com/artFintch/Frog.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/artFintch'
+  s.social_media_url = 'https://twitter.com/swiftyfinch'
 
   s.platform = :osx
   s.osx.deployment_target = "10.15"
