@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Frog'
-  s.version          = '1.1.2'
+  s.version          = '1.2.0'
   s.summary          = 'Tiny utility for read and write file line by line in Swift.'
   s.description      = <<-DESC
     I wrote this for easier work with files in some algorithms implementations.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/artFintch'
 
   s.platform = :osx
-  s.osx.deployment_target = "10.10"
-  s.swift_version = "4.2"
+  s.osx.deployment_target = "10.15"
+  s.swift_version = "5.0"
   s.source_files = 'Frog/Classes/**/*'
 end
