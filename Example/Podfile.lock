@@ -1,5 +1,5 @@
 PODS:
-  - Frog (1.0.2)
+  - Frog (1.1.2)
 
 DEPENDENCIES:
   - Frog (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Frog: ff526897c40bca06c042a4b4e22f3905a9110f26
+  Frog: 818981e31a668c3458d369ff80dff397d4f34477
 
 PODFILE CHECKSUM: 5ad9221eb9272c7fb7adda5c3ef41739017b5915
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.9.0
